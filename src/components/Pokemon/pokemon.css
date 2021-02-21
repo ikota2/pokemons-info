@@ -1,0 +1,13 @@
+.list__pokemon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__pokemon_img {
+  width: 100px;
+  height: 100px;
+}
+
+.list__pokemon_name {
+  padding-top: 35px;
+}

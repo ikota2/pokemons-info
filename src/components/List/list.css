@@ -1,0 +1,9 @@
+.list__wrapper {
+  padding: 0 20px;
+  font-family: "Hind Siliguri", sans-serif;
+  text-transform: uppercase;
+}
+
+.list__loadButton {
+  font-family: "Hind Siliguri", sans-serif;
+}
