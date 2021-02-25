@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./pagination.css";
 
 export function Pagination() {
@@ -7,13 +7,13 @@ export function Pagination() {
   return (
     <div className='pagination'>
       {page >= 1 && (
-        <a href={`/catalog/${Number(page) - 1}`} className='pagination__prev'>
+        <Link to={`/catalog/${Number(page) - 1}`} className='pagination__prev'>
           previous
-        </a>
+        </Link>
       )}
-      <a href={`/catalog/${Number(page) + 1}`} className='pagination__next'>
+      <Link to={`/catalog/${Number(page) + 1}`} className='pagination__next'>
         next
-      </a>
+      </Link>
     </div>
   );
 }

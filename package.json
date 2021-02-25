@@ -2,7 +2,7 @@
   "name": "pokemons-info",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ikota2.github.io/pokemons-info/",
+  "homepage": "/pokemons-info",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
