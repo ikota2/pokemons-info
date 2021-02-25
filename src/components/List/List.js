@@ -12,7 +12,7 @@ export function List() {
   useEffect(
     function handleClick() {
       loadPokemons(page).then((nextPokemons) => {
-        setPokemons((prev) => [...prev, ...nextPokemons]);
+        setPokemons(nextPokemons);
       });
     },
     [page]
